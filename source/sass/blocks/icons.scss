@@ -1,0 +1,64 @@
+.icons__content 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.icons__content--work
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icons__card 
+{
+    text-align: center;
+}
+
+.icons__img 
+{
+    height: 70px;
+    padding-bottom: 40px;
+}
+
+.icons__text
+{
+    width: 200px;
+    font-family: $font-family, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.icons__text span 
+{
+    font-family: $font-family-light, sans-serif;
+    display: block;
+    padding-top: 10px;
+}
+
+.icons__content--work .icons__card 
+{
+    text-align: left;
+}
+
+.icons__content--work .icons__text
+{
+    width: 200px;
+    font-family: $font-family, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+
+.icons__content--work .icons__description
+{
+    width: 200px;
+    font-family: $font-family, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}

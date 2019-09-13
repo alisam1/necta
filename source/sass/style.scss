@@ -1,0 +1,72 @@
+@import "variables.scss";
+@import "blocks/normalize.scss";
+@import "blocks/container.scss";
+@import "blocks/main-header.scss";
+@import "blocks/icons.scss";
+@import "blocks/popular.scss";
+@import "blocks/rent.scss";
+@import "blocks/work.scss";
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/montserrat.ttf") format('ttf'),
+         url("../fonts/montserrat/montserrat.woff") format('woff'),
+         url("../fonts/montserrat/montserrat.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/montserrat/montserratlight.ttf") format('ttf'),
+  url("../fonts/montserrat/montserratlight.woff") format('woff'),
+  url("../fonts/montserrat/montserratlight.woff2") format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/montserrat/montserrat_medium.ttf") format('ttf'),
+         url("../fonts/montserrat/montserrat_medium.woff") format('woff'),
+         url("../fonts/montserrat/montserrat_medium.woff2") format('woff2');
+      font-weight: 500;
+      font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/montserrat/montserratbold.ttf") format('ttf'),
+    url("../fonts/montserrat/montserratbold.woff") format('woff'),
+    url("../fonts/montserrat/montserratbold.woff2") format('woff2');
+      font-weight: 700;
+      font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url("../fonts/montserrat/montserratextrabold.ttf") format('ttf'),
+         url("../fonts/montserratmontserratextrabold.woff") format('woff'),
+         url("../fonts/montserrat/montserratextrabold.woff2") format('woff2');
+      font-weight: 800;
+      font-style: normal;
+  }
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway/ralewayregular.ttf") format('ttf'),
+        url("../fonts/raleway/ralewayregular.woff") format('woff'),
+        url("../fonts/raleway/ralewayregular.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+  @font-face {
+    font-family: "Raleway-Bold";
+    src: url("../fonts/raleway/ralewaybold.ttf") format('ttf'),
+         url("../fonts/raleway/ralewaybold.woff") format('woff'),
+         url("../fonts/raleway/ralewaybold.woff2") format('woff2');
+      font-weight: 700;
+      font-style: normal;
+  }

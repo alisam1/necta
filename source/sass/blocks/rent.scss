@@ -1,0 +1,77 @@
+.rent
+{
+    width: 100%;
+    background-image: url("../img/rent_bg.png");
+    background-size: cover;
+    position: relative;
+    background-position: right;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.rent__text
+{
+    width: 25%;
+    margin: 0 auto;
+    font-family: $font-family, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.rent__description 
+{
+    width: 50%;
+    margin: 0 auto;
+    font-family: $font-family-bold, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.451);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+
+.rent__button
+{
+    width: 152px;
+    height: 44px;
+    border-radius: 20px;
+    background-image: linear-gradient( 90deg, rgb(78,105,13) 0%, rgb(123,163,25) 100%);
+    box-shadow: 0px 16px 54px 0px rgba(0, 0, 0, 0.18);
+    display: block;
+    margin-top: 30px;
+    padding-left: 0;
+    font-family: $font-family, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.rent__button a 
+{
+    font-family: $font-family-bold, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
