@@ -1,0 +1,72 @@
+.question   
+{
+    width: 100%;
+    background-image: url("../img/question_bg.png");
+    background-size: cover;
+    position: relative;
+    background-position: right;
+    padding-top: 85px;
+    padding-bottom: 90px;
+}
+
+.question__form 
+{
+    text-align: center;
+}
+
+.question__form form
+{
+    text-align: center;
+}
+
+
+.question__form input
+{
+    width: 217px;
+    height: 43px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    border: none;
+    font-family: $font-family, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 20px;
+
+}
+
+.question__form input[type="text"]
+{
+    margin-right: 30px;
+}
+
+.question__form input[type="submit"]
+{
+    width: 152px;
+    height: 44px;
+    border-radius: 20px;
+    background-image: linear-gradient( 90deg, rgb(78,105,13) 0%, rgb(123,163,25) 100%);
+    box-shadow: 0px 16px 54px 0px rgba(0, 0, 0, 0.18);
+    display: block;
+    margin-top: 30px;
+    padding-left: 0;
+    font-family: $font-family, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  
+    .question__form input[type="text"] {
+
+        margin-right: 0px;
+        margin-bottom: 20px;
+    
+    }
+  }
+
+
+

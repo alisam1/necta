@@ -16,6 +16,7 @@
 .icons__card 
 {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .icons__img 
@@ -62,3 +63,43 @@
     font-size: 13px;
     line-height: 20px;
 }
+
+  
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .icons__content 
+{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+   
+}
+
+.icons__content 
+{
+    flex-wrap: wrap;
+}
+
+  
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+  
+    .icons__card
+    {
+        margin: 0 auto;
+    }
+
+    .icons__content--work .icons__card {
+
+        text-align: center;
+    
+    }
+
+    .icons__content 
+{
+    flex-wrap: wrap;
+}
+  }
+

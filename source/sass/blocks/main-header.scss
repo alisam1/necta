@@ -1,19 +1,10 @@
-.main-header
-{
-    width: 100%;
-    height: 835px;
-    background-image: url("../img/main_bg.png");
-    background-size: cover;
-    position: relative;
-    background-position: right;
-}
-
 .header
 {
     width: 100%;
     position: fixed;
     height: 122px;
     background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
 
     
 }
@@ -73,6 +64,8 @@
     list-style-type: none;
     align-items: center;
     height: 100%;
+    width: 105px;
+    justify-content: space-between;
 }
 
 .social__item
@@ -82,22 +75,20 @@
 
 .social__item--vk
 {
-    background: url("../img/vk_logo.svg");
+    background: url("../img/vk-logo.svg");
     background-repeat: no-repeat;
-    width: 19px;
-    height: 11px;
-    background-color: #000;
+    width: 15px;
+    height: 13px;   
     background-size: contain;
 
 }
 
 .social__item--vk:hover
 {
-    background-image: url("../img/vk.svg");
+    background-image: url("../img/vk-hover.svg");
     background-repeat: no-repeat;
     width: 15px;
-    height: 15px;
-    background-color: #fff;
+    height: 13px;
     background-size: contain;
 
 }
@@ -106,10 +97,12 @@
 {
     background-image: url("../img/insta_logo.svg");
     background-repeat: no-repeat;
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     color: #9e9f9f;
     background-size: contain;
+    position: relative;
+    left: 5px;
 
 }
 
@@ -117,10 +110,12 @@
 {
     background-image: url("../img/insta_hover.svg");
     background-repeat: no-repeat;
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     color: #fff;
     background-size: contain;
+    position: relative;
+    left: 5px;
 
 }
 
@@ -163,6 +158,10 @@
     background-image: linear-gradient( 90deg, rgb(245,123,32) 0%, rgb(241,87,34) 100%);
     opacity: 1;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -176,12 +175,25 @@
     text-decoration: none;
 }
 
+.main__all
+{
+    min-width: 1140px;
+    width: 100%;
+    margin-top: 30px;
+}
+
 .main__content 
 {
+    width: 100%;
+    height: 835px;
+    background-image: url("../img/main_bg.png");
+    background-size: cover;
+    position: relative;
+    background-position: right;
+    z-index: 998;
     display: flex;
-    align-items: center;
-    height: 100%;
-    padding-top: 10px;
+    flex-direction: row;
+    align-items: center
 }
 
 .content__top
@@ -264,3 +276,86 @@
 
 }
   
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .main__all {
+        min-width: 768px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .main__content 
+{
+    background-position: bottom;
+   
+}
+
+  
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+
+    .main__all {
+        min-width: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .main__content {
+        width: 100%;
+        height: 740px;
+        background-image: url("../img/main_bg.png");
+        background-size: cover;
+        position: relative;
+        background-position: bottom;
+        z-index: 998;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .content__top {
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__text
+    {
+            width: 70%;
+    }
+
+    .content__text::before {
+        display: none;
+    }
+
+    .main__title {
+        font-size: 80px;
+        line-height: 18px;
+        color: #6b9800;
+    }
+
+    .content__bottom form 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__bottom input[type="text"] {
+        margin-bottom: 10px;
+    }
+
+    .menu
+    {
+        display: none;
+    }
+  
+   
+  }

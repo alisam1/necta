@@ -16,7 +16,7 @@
     line-height: 30px;
     text-align: center;
     color: #362b21;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
@@ -145,3 +145,37 @@
     color: #362b21;
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .popular__content 
+{
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.popular__card
+{
+    margin-bottom: 30px;
+}
+
+  
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+
+    .popular__content 
+    {
+        flex-wrap: wrap;
+       
+    }
+    
+    .popular__card
+    {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+  
+   
+  }
