@@ -1,3 +1,28 @@
+.content {
+    position: relative;
+    height:auto;
+}
+
+.scrolled .header {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; 
+    height: 80px;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.scrolled .spacer {
+    height: 122px;
+}
+
+    .header-mobile
+    {
+        display: none;
+    }
+
 .header
 {
     width: 100%;
@@ -278,6 +303,16 @@
   
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
+      .header
+    {
+        display: block;
+    }
+
+    .header-mobile
+    {
+        display: none;
+    }
+
     .main__all {
         min-width: 768px;
         width: 100%;
@@ -295,6 +330,44 @@
   
   @media screen and (min-width: 0px) and (max-width: 767px) {
 
+    .scrolled .header {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; 
+    height: 60px;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__content 
+{
+    height: 60px;
+}
+
+    .header
+    {
+        display: none;
+    }
+
+    .header-mobile
+    {
+        height: 60px;
+        background-color: #000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .phone 
+{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
     .main__all {
         min-width: auto;
         width: 100%;
@@ -303,7 +376,7 @@
 
     .main__content {
         width: 100%;
-        height: 740px;
+        height: 500px;
         background-image: url("../img/main_bg.png");
         background-size: cover;
         position: relative;
@@ -356,6 +429,20 @@
     {
         display: none;
     }
-  
+
+    .menu__list{
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .menu__item
+    {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+   .social
+   {
+       display: none;
+   }
    
   }

@@ -135,6 +135,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     align-items: center;
+    cursor: pointer;
 }
 
 .popular__but a
@@ -145,6 +146,45 @@
     color: #362b21;
     text-decoration: none;
 }
+
+.popular__but:hover
+{
+    width: 152px;
+    height: 44px;
+    border: none;
+    background-image: linear-gradient( 90deg, rgb(78,105,13) 0%, rgb(123,163,25) 100%);
+    border-radius: 16px;
+    font-family: $font-family-medium, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.popular__but:hover a
+{
+   color: #fff;
+}
+
+.popular__but:active
+{
+   width: 152px;
+    height: 44px;
+    border: none;
+    background-image: linear-gradient( 90deg, rgb(78,105,13) 0%, rgb(123,163,25) 100%);
+    border-radius: 16px;
+    font-family: $font-family-medium, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.popular__but:active a
+{
+   color: #fff;
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
